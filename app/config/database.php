@@ -52,9 +52,9 @@ return array(
         'mysql'  => array(
             'driver'    => 'mysql',
             'host'      => '127.0.0.1',
-            'database'  => getenv('DB_NAME') ?: 'database',
-            'username'  => getenv('DB_USERNAME') ?: 'root',
-            'password'  => getenv('DB_PASSWORD') ?: '',
+            'database'  => getenv('projects') ?: 'database',
+            'username'  => getenv('whysr.dev4') ?: 'root',
+            'password'  => getenv('fnMU9dJ0V2PP') ?: '',
             'charset'   => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix'    => '',
