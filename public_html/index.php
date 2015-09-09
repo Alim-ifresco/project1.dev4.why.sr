@@ -26,7 +26,7 @@ $r = new Restler(getenv('APP_ENV') == 'production');
 $r->setSupportedFormats('JsonFormat', 'HtmlFormat');
 $r->addApiClass('Home', '');
 $r->addApiClass('Explorer');
-$r->addApiClass('AuthorController');
+$r->addApiClass('Authors');
 
 
 /*
