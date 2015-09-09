@@ -25,6 +25,7 @@ use Luracast\Restler\Restler;
 $r = new Restler(getenv('APP_ENV') == 'production');
 $r->addApiClass('Home', '');
 $r->addApiClass('Explorer');
+$r->addApiClass('AuthorController');
 
 
 /*
