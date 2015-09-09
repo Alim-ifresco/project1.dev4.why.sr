@@ -24,7 +24,8 @@
         "luracast/config": "1.*",
         "vlucas/phpdotenv": "~1.0",
         "restler/framework": "3.0.0-RC6",
-        "twig/twig": "~1.0"
+        "twig/twig": "~1.0",
+        "illuminate/view": "4.2.*"
     },
     "require-dev": {
         "illuminate/console": "4.2.*",

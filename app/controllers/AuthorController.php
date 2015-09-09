@@ -7,6 +7,8 @@ class AuthorController {
      * Get all Authors
      *
      * return array {@type Author}
+     *
+     * @view authorView
      */
     public function index(){
         return Author::all();
