@@ -23,7 +23,8 @@
         "illuminate/filesystem": "4.2.*",
         "luracast/config": "1.*",
         "vlucas/phpdotenv": "~1.0",
-        "restler/framework": "3.0.0-RC6"
+        "restler/framework": "3.0.0-RC6",
+        "twig/twig": "~1.0"
     },
     "require-dev": {
         "illuminate/console": "4.2.*",
