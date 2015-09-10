@@ -22,7 +22,7 @@ require __DIR__ . '/../bootstrap/autoload.php';
 
 use Luracast\Restler\Restler;
 
-$r = new Restler(getenv('APP_ENV') == 'production');
+$r = new Restler(true);
 $r->setSupportedFormats('JsonFormat', 'HtmlFormat');
 $r->addApiClass('Home', '');
 $r->addApiClass('Explorer');

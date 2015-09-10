@@ -1,6 +1,7 @@
 <?php
 
 use Luracast\Restler\RestException;
+use Luracast\Restler\Format\HtmlFormat;
 
 class Authors {
     /**
@@ -9,7 +10,9 @@ class Authors {
      * return array {@type Author}
      *
      * @view authorView
+     *
      */
+
     public function index(){
         return Author::all();
     }
