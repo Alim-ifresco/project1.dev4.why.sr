@@ -30,14 +30,16 @@ class Authors {
      * @param string $_name {@from path}
      * @param string $_email {@from path}
      *
+     *
      * return array {@type Author}
+     *
      */
     public function post($_name,$_email){
         $auth=new Author;
         $auth->name=$_name;
         $auth->email=$_email;
         $auth->save();
-        return $auth;
+//        return $auth;
 
     }
 
