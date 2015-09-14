@@ -21,6 +21,9 @@ require __DIR__ . '/../bootstrap/autoload.php';
 
 
 use Luracast\Restler\Restler;
+use Luracast\Restler\Defaults;
+use Luracast\Restler\ExplorerInfo;
+use Luracast\Restler\Format\HtmlFormat;
 
 $r = new Restler(true);
 $r->setSupportedFormats('JsonFormat', 'HtmlFormat');
