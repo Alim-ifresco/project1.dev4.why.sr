@@ -4,25 +4,25 @@ use Luracast\Restler\RestException;
 use Luracast\Restler\Format\HtmlFormat;
 
 class Authors {
-    /**
-     * Get all Authors
-     *
-     * return array {@type Author}
-     *
-     * @view authorView
-     *
-     */
+//    /**
+//     * Get all Authors
+//     *
+//     * return array {@type Author}
+//     *
+//     * @view authorView
+//     *
+//     */
 
     public function index(){
         return Author::all();
     }
 
-//    public function get($id){
-//        if(!$feedback = Author::find($id)){
-//            throw new RestException(404, 'feedback not found');
-//        }
-//        return $feedback;
-//    }
+    public function get($id){
+        if(!$feedback = Author::find($id)){
+            throw new RestException(404, 'feedback not found');
+        }
+        return $feedback;
+    }
 
 
 
