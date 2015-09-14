@@ -4,18 +4,27 @@ use Luracast\Restler\RestException;
 use Luracast\Restler\Format\HtmlFormat;
 
 class Authors {
-//    /**
-//     * Get all Authors
-//     *
-//     * return array {@type Author}
-//     *
-//     * @view authorView
-//     *
-//     */
+    /**
+     * Get all Authors
+     *
+     * return array {@type Author}
+     *
+     * @view authorView
+     *
+     */
 
     public function index(){
         return Author::all();
     }
+
+    /**
+     * Get one Author
+     *
+     * return array {@type Author}
+     *
+     * @view authorDetailView
+     *
+     */
 
     public function get($id){
         if(!$feedback = Author::find($id)){
