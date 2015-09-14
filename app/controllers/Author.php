@@ -24,24 +24,7 @@ class Authors {
         return $feedback;
     }
 
-//    /**
-//     * Post name and email
-//     *
-//     * @param string $_name
-//     * @param string $_email
-//     *
-//     *
-//     * return array {@type Author}
-//     *
-//     */
-//    public function post($_name,$_email){
-//        $auth=new Author;
-//        $auth->name=$_name;
-//        $auth->email=$_email;
-//        $auth->save();
-////        return $auth;
-//
-//    }
+
 
     public function delete($id){
         if(!$feedback = Authors::find($id)){
