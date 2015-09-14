@@ -24,9 +24,9 @@ use Luracast\Restler\Restler;
 
 $r = new Restler(true);
 $r->setSupportedFormats('JsonFormat', 'HtmlFormat');
-$r->addApiClass('Home', '');
+//$r->addApiClass('Home', '');
 $r->addApiClass('Explorer');
-//$r->addApiClass('Authors');
+$r->addApiClass('Authors');
 
 
 /*
